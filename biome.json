@@ -1,7 +1,33 @@
 {
 	"linter": {
 		"rules": {
-			"recommended": true
+			"recommended": true,
+			"complexity": {
+				"useSimplifiedLogicExpression": "error"
+			},
+			"correctness": {
+				"noGlobalDirnameFilename": {
+					"level": "warn",
+					"fix": "unsafe"
+				},
+				"noProcessGlobal": {
+					"level": "warn",
+					"fix": "unsafe"
+				},
+				"noUndeclaredDependencies": "warn"
+			},
+			"performance": {
+				"noDelete": "warn"
+			},
+			"style": {
+				"noCommonJs": "warn",
+				"noEnum": "warn",
+				"noMagicNumbers": "info",
+				"noNegationElse": "warn",
+				"noNestedTernary": "warn",
+				"noProcessEnv": "error",
+				"noUselessElse": "error"
+			}
 		}
 	}
 }
