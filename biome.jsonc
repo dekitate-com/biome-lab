@@ -1,0 +1,58 @@
+{
+	"linter": {
+		"rules": {
+			"recommended": true,
+			"complexity": {
+				"useSimplifiedLogicExpression": "error"
+			},
+			"correctness": {
+				"noGlobalDirnameFilename": {
+					"level": "warn",
+					"fix": "unsafe"
+				},
+				"noProcessGlobal": {
+					"level": "warn",
+					"fix": "unsafe"
+				},
+				"noUndeclaredDependencies": "warn"
+			},
+			"performance": {
+				"noDelete": "warn"
+			},
+			"style": {
+				"noCommonJs": "warn",
+				"noEnum": "warn",
+				"noMagicNumbers": "info",
+				"noNegationElse": "warn",
+				"noNestedTernary": "warn",
+				"noProcessEnv": "error",
+				"noUnusedTemplateLiteral": "warn",
+				"noUselessElse": "error",
+				"noYodaExpression": "error",
+				"useAsConstAssertion": "info",
+				"useAtIndex": "info",
+				"useBlockStatements": "warn",
+				"useCollapsedElseIf": "error",
+				"useCollapsedIf": "error",
+				"useConsistentArrayType": "warn",
+				"useConsistentBuiltinInstantiation": "warn",
+				"useDefaultParameterLast": "warn",
+				"useDefaultSwitchClause": "warn",
+				"useExplicitLengthCheck": "warn",
+				"useNumericSeparators": "warn",
+				"useObjectSpread": "warn",
+				"useSingleVarDeclarator": "warn",
+				"useUnifiedTypeSignatures": "warn"
+				// useFilenamingConvention
+				// useNamingConvention,,
+			},
+			"suspicious": {
+				"noConsole": "error",
+				"noEmptyBlockStatements": "error",
+				"noUnassignedVariables": "warn",
+				"noVar": "error",
+				"useErrorMessage": "warn"
+			}
+		}
+	}
+}
