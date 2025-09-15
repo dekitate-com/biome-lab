@@ -30,3 +30,8 @@ console.log("Hello Biome!");
 (ref: https://biomejs.dev/linter/rules/no-console/)
 
 ## Plugins でカスタムルールを作成
+
+## ルールの基準
+- error: 可読性が下がるので必ず修正してほしいもの
+- warn: 統一できててないと迷いが出るもの & 修正もそんなに大変じゃないはずのもの
+- info: 統一できてなくても気にならないレベル(人による)。できたら対応してほしいもの

@@ -1,5 +1,7 @@
+// biome-ignore lint/suspicious/noConsole: This is a Test
 console.log("Hello via Bun!");
 
 function main() {
-    console.log(arguments);
+	// biome-ignore lint/suspicious/noConsole: This is a Test
+	console.log(arguments);
 }
