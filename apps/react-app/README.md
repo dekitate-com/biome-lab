@@ -15,3 +15,6 @@ Vite を使用する
 
 
 ## React プロジェクト用の biome の設定
+- モノレポ用の設定: https://biomejs.dev/guides/big-projects/#monorepo
+- Domainsの設定: https://biomejs.dev/linter/domains/#react
+- recommended 以外は個別に指定

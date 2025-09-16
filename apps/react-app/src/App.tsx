@@ -1,5 +1,9 @@
 function App() {
-	return <h1>Vite + React</h1>;
+	function NestedComponent() {
+		return <h1>Nested Component</h1>;
+	}
+
+	return <NestedComponent />;
 }
 
 export default App;
