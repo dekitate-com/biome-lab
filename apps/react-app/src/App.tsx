@@ -1,9 +1,5 @@
 function App() {
-	function NestedComponent() {
-		return <h1>Nested Component</h1>;
-	}
-
-	return <NestedComponent />;
+	return <h1>biome lab</h1>;
 }
 
 export default App;
