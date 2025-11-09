@@ -9,9 +9,6 @@
 			"correctness": {
 				"noNestedComponentDefinitions": "warn",
 				"useUniqueElementIds": "warn"
-			},
-			"nursery": {
-				"useReactFunctionComponents": "error"
 			}
 		}
 	}
